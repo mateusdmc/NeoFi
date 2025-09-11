@@ -3,10 +3,261 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
     <title>NeoFi</title>
     <link href="./output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon-neofi.png" type="image/x-icon">
 </head>
-<body>
+<body class="bg-[#000]">
     
+    <!-- Navbar -->
+    <section class="flex justify-center bg-[#000000]">
+        <div class="container px-[20px] py-[20px] lg:pt-[40px] lg:pb-[30px] 2xl:pt-[50px] 2xl:pb-[50px] lg:px-[60px]">
+            <div>
+                <div class="flex justify-between items-center">
+                    <a href="#">
+                        <img src="assets/img/logo-neofi.png" alt="logomarca" class="w-[100px] md:w-[110px]">
+                    </a>
+                    <div class="hidden md:block">
+                        <div class="flex items-center font-alexandria font-light text-white gap-[28px] text-[14px] lg:text-[16px] 2xl:gap-[38px]">
+                            <a href="#" class="font-normal">Home</a>
+                            <a href="#" class="font-normal text-[#999999] hover:text-[#9DFF3A]">Features</a>
+                            <a href="#" class="font-normal text-[#999999] hover:text-[#9DFF3A]">Testimonial</a>
+                            <a href="#" class="font-normal text-[#999999] hover:text-[#9DFF3A]">FAQ</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center md:hidden">
+                            <span class="icon-[material-symbols--menu] w-[24px] h-[24px] bg-white"></span>
+                        </div>
+                        <div class="hidden md:block">
+                            <div class="font-alexandria flex gap-[10px]">
+                                <button class="bg-[#000000] text-white font-normal hover:text-[#d1d1d1] rounded-full cursor-pointer py-[5px] px-[20px] lg:py-[8px]">Log in</button>
+                                <button class="bg-[#9DFF3A] hover:bg-[#9cff3ae1] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal py-[5px] px-[20px] rounded-full lg:py-[8px] 2xl:px-[24px]">Try For Free</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Inicio -->
+    <section class="flex justify-center bg-[#000000]">
+        <div class="container py-[50px] lg:py-[80px] px-[20px] lg:px-[60px]">
+            <div class="flex flex-col font-alexandria md:flex-row md:justify-between md:items-center md:gap-[40px]">
+                <div class="md:w-[420px] lg:w-[560px] 2xl:w-[640px]">
+                    <div class="flex justify-center md:justify-start">
+                        <div class="bg-linear-to-r from-[#B3B3B3] to-[#4D4D4D] p-[2px] rounded-full">
+                            <div class="flex items-center gap-[8px] rounded-full bg-[#000] text-[#9DFF3A] px-[14px] py-[12px]">
+                                <span class="relative flex h-[10px] w-[10px] items-center justify-center">
+                                    <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#9DFF3A] opacity-85"></span>
+                                    <span class="relative inline-flex h-[9px] w-[9px] rounded-full bg-[#9DFF3A]"></span>
+                                </span>
+                                <p class="leading-none text-[14px]">Decentralised</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col text-center gap-[15px] mt-[15px] md:text-start lg:mt-[30px] lg:gap-[30px]">
+                        <h1 class="text-[#E5E5E5] font-semibold leading-[44px] text-[40px] lg:text-[54px] lg:leading-[58px] 2xl:text-[64px] 2xl:leading-[68px]">Revolutionizing Web3 Finance</h1>
+                        <p class="text-[#999999] font-normal leading-[18px] text-[16px] lg:text-[18px] lg:leading-[20px] 2xl:text-[20px] 2xl:leading-[22px]">Secure, scalable, and decentralized solutions for your digital assets—experience the future of financial freedom.</p>
+                    </div>
+                    <div class="flex flex-col gap-[20px] my-[32px] md:flex-row md:mt-[32px] md:mb-[0px] 2xl:mt-[40px]">
+                        <div class="flex justify-center">
+                            <button class="bg-[#9DFF3A] hover:bg-[#9cff3ae1] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal py-[12px] px-[24px] rounded-full lg:py-[8px] 2xl:px-[24px]">Get Started</button>
+                        </div>
+                        <div class="flex justify-center">
+                            <button class="bg-linear-to-r from-[#B3B3B3] to-[#4D4D4D] p-[2px] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal  rounded-full">
+                                <div class="bg-black text-[#E5E5E5] py-[12px] px-[24px] lg:py-[8px] 2xl:px-[24px] rounded-full flex items-center gap-[4px]">
+                                    <span class="icon-[material-symbols--play-arrow-rounded] w-[28px] h-[28px]"></span>
+                                    <p>Watch video</p>
+                                </div>    
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <img src="assets/img/hero-img.png" alt="img-inicio" class="w-[300px] lg:w-[420px] 2xl:w-[512px]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marcas -->
+    <section class="flex justify-center bg-[#0F0F0F]">
+        <div class="container py-[50px] lg:py-[40px] px-[20px] lg:px-[60px]">
+            <div class="flex flex-col gap-[28px]">
+                <div class="text-center">
+                    <p class="text-[#999999] font-alexandria font-semibold text-[16px]">Satisfied partners</p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-[14px] sm:gap-[24px] md:gap-[20px] lg:gap-[40px] 2xl:gap-[72px]">
+                    <img src="assets/img/marca-1.png" alt="marca 1" class="w-[97px] sm:w-[134px] md:w-[126px] lg:md:w-[131px] hover:scale-110 transition-transform">
+                    <img src="assets/img/marca-2.png" alt="marca 2" class="w-[97px] sm:w-[134px] md:w-[126px] lg:md:w-[131px] hover:scale-110 transition-transform">
+                    <img src="assets/img/marca-3.png" alt="marca 3" class="w-[97px] sm:w-[134px] md:w-[126px] lg:md:w-[131px] hover:scale-110 transition-transform">
+                    <img src="assets/img/marca-4.png" alt="marca 4" class="w-[97px] sm:w-[134px] md:w-[126px] lg:md:w-[131px] hover:scale-110 transition-transform">
+                    <img src="assets/img/marca-5.png" alt="marca 5" class="w-[97px] sm:w-[134px] md:w-[126px] lg:md:w-[131px] hover:scale-110 transition-transform">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="flex justify-center bg-[#000000] group">
+        <div class="container py-[50px] lg:py-[80px] px-[20px] lg:px-[60px]">
+
+            <div class="flex flex-col gap-[16px] mb-[40px] xl:mb-[60px]">
+                <div class="flex justify-center">
+                    <div class="flex border-[2px] rounded-full border-[#2E2E2E] text-[#9DFF3A] font-alexandria leading-none group-hover:border-[#9DFF3A] text-[14px] px-[20px] py-[12px] ">
+                        Features
+                    </div>
+                </div>
+                <div class="flex flex-col text-center leading-none font-alexandria gap-[16px]">
+                    <h1 class="text-[#E5E5E5] text-[28px] md:text-[32px] xl:text-[42px] 2xl:text-[48px]">Future Breakdown</h1>
+                    <div class="flex justify-center">
+                        <div class="md:w-[550px] lg:w-[610px] ">
+                            <p class="text-[#999999] leading-[18px] text-[14px] md:text-[16px] md:leading-[20px] lg:text-[18px]">Secure, scalable, and decentralized solutions for your digital assets—experience the future of financial freedom.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-[16px] md:flex-row xl:gap-[22px] 2xl:gap-[34px]">
+                <div class="flex-1 bg-linear-to-r from-[#2c2c2c] to-[#181818] p-[2px] rounded-[12px] hover:translate-y-[-12px] duration-150 ease-in-out hover:from-[#9DFF3A]">
+                    <div class="flex flex-col leading-none font-alexandria items-center text-center bg-[#0e0e0e] rounded-[12px] px-[24px] py-[30px] gap-[26px] h-[100%] xl:px-[34px] xl:py-[48px] 2xl:px-[60px] 2xl:py-[60px]">
+                        <img src="assets/img/Scalability.png" alt="icone" class="w-[48px] xl:mb-[10px]">
+                        <div>
+                            <p class="text-[#E5E5E5] text-[18px] font-light xl:text-[20px]">Scalability</p>
+                            <p class="text-[#999999] leading-[18px] text-[14px] mt-[12px] xl:mt-[16px] xl:text-[16px] xl:leading-[20px]">Adapt and grow, no matter the demand on grow</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 bg-linear-to-r from-[#2c2c2c] to-[#181818] p-[2px] rounded-[12px] hover:translate-y-[-12px] duration-150 ease-in-out hover:from-[#9DFF3A]">
+                    <div class="flex flex-col leading-none font-alexandria items-center text-center bg-[#0e0e0e] rounded-[12px] px-[24px] py-[30px] gap-[26px] h-[100%] xl:px-[34px] xl:py-[48px] 2xl:px-[60px] 2xl:py-[60px]">
+                        <img src="assets/img/Decentralisation.png" alt="icone" class="w-[48px] xl:mb-[10px]">
+                        <div>
+                            <p class="text-[#E5E5E5] text-[18px] font-light xl:text-[20px]">Decentralisation</p>
+                            <p class="text-[#999999] leading-[18px] text-[14px] mt-[12px] xl:mt-[16px] xl:text-[16px] xl:leading-[20px]">Decentralization. Web3 aims to move away from the centralized</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 bg-linear-to-r from-[#2c2c2c] to-[#181818] p-[2px] rounded-[12px] hover:translate-y-[-12px] duration-150 ease-in-out hover:from-[#9DFF3A]">
+                    <div class="flex flex-col leading-none font-alexandria items-center text-center bg-[#0e0e0e] rounded-[12px] px-[24px] py-[30px] gap-[26px] h-[100%] xl:px-[34px] xl:py-[48px] 2xl:px-[60px] 2xl:py-[60px]">
+                        <img src="assets/img/Connectivity.png" alt="icone" class="w-[48px] xl:mb-[10px]">
+                        <div>
+                            <p class="text-[#E5E5E5] text-[18px] font-light xl:text-[20px]">Connectivity</p>
+                            <p class="text-[#999999] leading-[18px] text-[14px] mt-[12px] xl:mt-[16px] xl:text-[16px] xl:leading-[20px] ">computers will be able to understand information similarly to humans</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="flex justify-center bg-[#0F0F0F] group">
+        <div class="container py-[50px] lg:py-[80px] px-[20px] lg:px-[60px] xl:py-[100px] 2xl:py-[120px]">
+
+            <div class="flex flex-col gap-[16px] mb-[40px] xl:mb-[50px]">
+                <div class="flex justify-center">
+                    <div class="flex border-[2px] rounded-full border-[#2E2E2E] text-[#9DFF3A] font-alexandria leading-none group-hover:border-[#9DFF3A] text-[14px] px-[20px] py-[12px] ">
+                        Statistics
+                    </div>
+                </div>
+                <div class="flex flex-col text-center leading-none font-alexandria gap-[16px]">
+                    <h1 class="text-[#E5E5E5] text-[28px] md:text-[32px] xl:text-[42px] 2xl:text-[48px]">Completely Leverage Product</h1>
+                    <div class="flex justify-center">
+                        <div class="md:w-[600px] lg:w-[680px]">
+                            <p class="text-[#999999] leading-[18px] text-[14px] md:text-[16px] md:leading-[20px] lg:text-[18px]">Leading the way in blockchain innovation, we are redefining how the world connects, secures, and transacts, bringing a new era of decentralized technology.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-[20px] md:flex-row md:justify-center md:gap-[68px] xl:gap-[100px]">
+                <div class="font-alexandria flex flex-col items-center hover:scale-110 transition-transform">
+                    <p class="text-[#9DFF3A] text-[48px] font-normal">2M+</p>
+                    <p class="text-[#999999] text-[20px]">Users</p>
+                </div>
+                <div class="font-alexandria flex flex-col items-center hover:scale-110 transition-transform">
+                    <p class="text-[#9DFF3A] text-[48px] font-normal">500k+</p>
+                    <p class="text-[#999999] text-[20px]">Transactions</p>
+                </div>
+                <div class="font-alexandria flex flex-col items-center hover:scale-110 transition-transform">
+                    <p class="text-[#9DFF3A] text-[48px] font-normal">35+</p>
+                    <p class="text-[#999999] text-[20px]">Countries</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+     <!-- Feature -->
+    <section class="flex justify-center bg-[#000000] group">
+        <div class="container py-[50px] lg:py-[80px] px-[20px] lg:px-[60px]">
+
+            <div class="flex flex-col gap-[16px]">
+                <div class="flex justify-center">
+                    <div class="flex border-[2px] rounded-full border-[#2E2E2E] text-[#9DFF3A] font-alexandria leading-none group-hover:border-[#9DFF3A] text-[14px] px-[20px] py-[12px] ">
+                       Feature
+                    </div>
+                </div>
+                <div class="flex flex-col text-center leading-none font-alexandria gap-[16px]">
+                    <h1 class="text-[#E5E5E5] text-[27px] md:text-[32px] xl:text-[42px] 2xl:text-[48px]">The Future Of Blockchain Technology</h1>
+                    <div class="flex justify-center">
+                        <div class="md:w-[600px] lg:w-[680px]">
+                            <p class="text-[#999999] leading-[18px] text-[14px] md:text-[16px] md:leading-[20px] lg:text-[18px]">Leading the way in blockchain innovation, we are redefining how the world connects, secures, and transacts, bringing a new era of decentralized technology.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="md:flex md:gap-[20px] md:justify-between md:items-center md:mt-[40px] lg:mt-[60px]">
+
+                    <div class="flex justify-center">
+                        <img src="assets/img/feature.png" alt="img" class="w-[300px] lg:w-[420px] 2xl:w-[506px]">
+                    </div>
+
+                    <div class="flex flex-col gap-[16px] md:w-[450px] xl:w-[650px] xl:gap-[22px] 2xl:gap-[34px] 2xl:w-[680px]">
+                        <div class="flex-1 bg-linear-to-r from-[#2c2c2c] to-[#181818] p-[2px] rounded-[12px] hover:translate-x-[12px] duration-150 ease-in-out hover:from-[#9DFF3A]">
+                            <div class="flex leading-none font-alexandria bg-[#0e0e0e] rounded-[12px] p-[16px] gap-[12px] h-[100%]">
+                                <img src="assets/img/ubiquity.png" alt="icone" class="w-[30px] h-[30px]">
+                                <div>
+                                    <p class="text-[#E5E5E5] text-[18px] font-light xl:text-[20px]">Connectivity and ubiquity</p>
+                                    <p class="text-[#999999] leading-[18px] text-[12px] mt-[12px] xl:mt-[16px] xl:text-[16px] xl:leading-[20px]">Connectivity and Ubiquity. The focal points of Web 3.0 emphasize connectivity and ubiquity, ensuring seamless interactions between users and devices within</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex-1 bg-linear-to-r from-[#2c2c2c] to-[#181818] p-[2px] rounded-[12px] hover:translate-x-[12px] duration-150 ease-in-out hover:from-[#9DFF3A]">
+                            <div class="flex leading-none font-alexandria bg-[#0e0e0e] rounded-[12px] p-[16px] gap-[12px] h-[100%]">
+                                <img src="assets/img/security.png" alt="icone" class="w-[30px] h-[30px]">
+                                <div>
+                                    <p class="text-[#E5E5E5] text-[18px] font-light xl:text-[20px]">Secure Transaction</p>
+                                    <p class="text-[#999999] leading-[18px] text-[12px] mt-[12px] xl:mt-[16px] xl:text-[16px] xl:leading-[20px]">Ensuring every transaction is protected with cutting-edge security, giving you the confidence to exchange, invest, and grow in a safe and trusted environment. two line</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex-1 bg-linear-to-r from-[#2c2c2c] to-[#181818] p-[2px] rounded-[12px] hover:translate-x-[12px] duration-150 ease-in-out hover:from-[#9DFF3A]">
+                            <div class="flex leading-none font-alexandria bg-[#0e0e0e] rounded-[12px] p-[16px] gap-[12px] h-[100%]">
+                                <img src="assets/img/blockchain.png" alt="icone" class="w-[30px] h-[30px]">
+                                <div>
+                                    <p class="text-[#E5E5E5] text-[18px] font-light xl:text-[20px]">Blockchain and decentralization</p>
+                                    <p class="text-[#999999] leading-[18px] text-[12px] mt-[12px] xl:mt-[16px] xl:text-[16px] xl:leading-[20px]">Most important of all, the assurance of blockchain and decentralization helps in encouraging communication between software and browser plugins.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 </body>
 </html>
