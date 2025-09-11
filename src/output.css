@@ -231,8 +231,14 @@
   .mt-\[15px\] {
     margin-top: 15px;
   }
+  .mt-\[20px\] {
+    margin-top: 20px;
+  }
   .mt-\[32px\] {
     margin-top: 32px;
+  }
+  .mt-\[40px\] {
+    margin-top: 40px;
   }
   .mb-\[20px\] {
     margin-bottom: 20px;
@@ -1377,6 +1383,16 @@
       width: 160px;
     }
   }
+  .sm\:w-\[400px\] {
+    @media (width >= 40rem) {
+      width: 400px;
+    }
+  }
+  .sm\:w-\[480px\] {
+    @media (width >= 40rem) {
+      width: 480px;
+    }
+  }
   .sm\:gap-\[20px\] {
     @media (width >= 40rem) {
       gap: 20px;
@@ -1713,9 +1729,24 @@
       width: 610px;
     }
   }
+  .lg\:w-\[620px\] {
+    @media (width >= 64rem) {
+      width: 620px;
+    }
+  }
+  .lg\:w-\[630px\] {
+    @media (width >= 64rem) {
+      width: 630px;
+    }
+  }
   .lg\:w-\[640px\] {
     @media (width >= 64rem) {
       width: 640px;
+    }
+  }
+  .lg\:w-\[650px\] {
+    @media (width >= 64rem) {
+      width: 650px;
     }
   }
   .lg\:w-\[660px\] {
@@ -1766,6 +1797,11 @@
   .lg\:py-\[8px\] {
     @media (width >= 64rem) {
       padding-block: 8px;
+    }
+  }
+  .lg\:py-\[14px\] {
+    @media (width >= 64rem) {
+      padding-block: 14px;
     }
   }
   .lg\:py-\[40px\] {
@@ -1920,6 +1956,11 @@
   .xl\:w-\[650px\] {
     @media (width >= 80rem) {
       width: 650px;
+    }
+  }
+  .xl\:w-\[660px\] {
+    @media (width >= 80rem) {
+      width: 660px;
     }
   }
   .xl\:w-auto {
@@ -2096,6 +2137,11 @@
   .\32 xl\:w-\[680px\] {
     @media (width >= 96rem) {
       width: 680px;
+    }
+  }
+  .\32 xl\:w-\[780px\] {
+    @media (width >= 96rem) {
+      width: 780px;
     }
   }
   .\32 xl\:gap-\[24px\] {
