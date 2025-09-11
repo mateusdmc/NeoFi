@@ -3,10 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
     <title>NeoFi</title>
     <link href="./output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon-neofi.png" type="image/x-icon">
 </head>
-<body>
+<body class="bg-[#000]">
     
+    <!-- Navbar -->
+    <section class="flex justify-center bg-[#000000]">
+        <div class="container px-[20px] py-[20px] lg:pt-[40px] lg:pb-[30px] 2xl:pt-[50px] 2xl:pb-[50px] lg:px-[60px]">
+            <div>
+                <div class="flex justify-between items-center">
+                    <a href="#">
+                        <img src="assets/img/logo-neofi.png" alt="logomarca" class="w-[100px] md:w-[110px]">
+                    </a>
+                    <div class="hidden md:block">
+                        <div class="flex items-center font-alexandria font-light text-white gap-[28px] text-[14px] lg:text-[16px] 2xl:gap-[38px]">
+                            <a href="#" class="font-normal">Home</a>
+                            <a href="#" class="font-normal text-[#999999] hover:text-[#9DFF3A]">Features</a>
+                            <a href="#" class="font-normal text-[#999999] hover:text-[#9DFF3A]">Testimonial</a>
+                            <a href="#" class="font-normal text-[#999999] hover:text-[#9DFF3A]">FAQ</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center md:hidden">
+                            <span class="icon-[material-symbols--menu] w-[24px] h-[24px] bg-white"></span>
+                        </div>
+                        <div class="hidden md:block">
+                            <div class="font-alexandria flex gap-[10px]">
+                                <button class="bg-[#000000] text-white font-normal hover:text-[#d1d1d1] rounded-full cursor-pointer py-[5px] px-[20px] lg:py-[8px]">Log in</button>
+                                <button class="bg-[#9DFF3A] hover:bg-[#9cff3ae1] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal py-[5px] px-[20px] rounded-full lg:py-[8px] 2xl:px-[24px]">Try For Free</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Inicio -->
+    <section class="flex justify-center bg-[#000000]">
+        <div class="container py-[50px] lg:py-[80px] px-[20px] lg:px-[60px]">
+            <div class="flex flex-col font-alexandria md:flex-row md:justify-between md:items-center md:gap-[40px]">
+                <div class="md:w-[420px] lg:w-[560px] 2xl:w-[640px]">
+                    <div class="flex justify-center md:justify-start">
+                        <div class="bg-linear-to-r from-[#B3B3B3] to-[#4D4D4D] p-[2px] rounded-full">
+                            <div class="flex items-center gap-[8px] rounded-full bg-[#000] text-[#9DFF3A] px-[14px] py-[12px]">
+                                <span class="relative flex h-[10px] w-[10px] items-center justify-center">
+                                    <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#9DFF3A] opacity-85"></span>
+                                    <span class="relative inline-flex h-[9px] w-[9px] rounded-full bg-[#9DFF3A]"></span>
+                                </span>
+                                <p class="leading-none text-[14px]">Decentralised</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col text-center gap-[15px] mt-[15px] md:text-start lg:mt-[30px] lg:gap-[30px]">
+                        <h1 class="text-[#E5E5E5] font-semibold leading-[44px] text-[40px] lg:text-[54px] lg:leading-[58px] 2xl:text-[64px] 2xl:leading-[68px]">Revolutionizing Web3 Finance</h1>
+                        <p class="text-[#999999] font-normal leading-[18px] text-[16px] lg:text-[18px] lg:leading-[20px] 2xl:text-[20px] 2xl:leading-[22px]">Secure, scalable, and decentralized solutions for your digital assets—experience the future of financial freedom.</p>
+                    </div>
+                    <div class="flex flex-col gap-[20px] my-[32px] md:flex-row md:mt-[32px] md:mb-[0px] 2xl:mt-[40px]">
+                        <div class="flex justify-center">
+                            <button class="bg-[#9DFF3A] hover:bg-[#9cff3ae1] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal py-[12px] px-[24px] rounded-full lg:py-[8px] 2xl:px-[24px]">Get Started</button>
+                        </div>
+                        <div class="flex justify-center">
+                            <button class="bg-linear-to-r from-[#B3B3B3] to-[#4D4D4D] p-[2px] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal  rounded-full">
+                                <div class="bg-black text-[#E5E5E5] py-[12px] px-[24px] lg:py-[8px] 2xl:px-[24px] rounded-full flex items-center gap-[4px]">
+                                    <span class="icon-[material-symbols--play-arrow-rounded] w-[28px] h-[28px]"></span>
+                                    <p>Watch video</p>
+                                </div>    
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <img src="assets/img/hero-img.png" alt="img-inicio" class="w-[300px] lg:w-[420px] 2xl:w-[512px]">
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
