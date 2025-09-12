@@ -1,0 +1,111 @@
+/* Animacao 1 direita pra esquerda */
+.slider1 {
+    --slider-inner-width: 2500px;
+    --slider-speed: 50s;
+}
+
+@keyframes scroll-left {
+    0% { transform: translateX(-5%) ; }
+    100% { transform: translateX(calc((0px - var(--slider-inner-width)) - 5%))}
+}
+.slider1 {
+    -webkit-transform: translate3d(0, 0, 0);
+    animation: scroll-left linear infinite var(--slider-speed);
+    width: calc(2 * var(--slider-inner-width));
+    transition: animation-play-state ease 0.3s;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+
+/* Config container*/
+.flex-container-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0;
+  background: #0F0F0F;
+}
+
+.slider-container-1 {
+	height: 190px;
+	overflow:hidden;
+	position: relative;
+	width: 100%;
+}
+.slider1 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+  
+.slider__slide1 {
+    height: 190px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        cursor: pointer;
+        scale: 1.04;
+    }
+}
+
+
+/* Animacao 2 esquerda para direita */
+.slider2 {
+    --slider-inner-width: 2500px;
+    --slider-speed: 50s;
+}
+
+@keyframes scroll-right {
+    0% { transform: translateX(calc((0px - var(--slider-inner-width)))); }
+    100% { transform: translateX(0); }
+}
+
+.slider2 {
+    -webkit-transform: translate3d(0, 0, 0);
+    animation: scroll-right linear infinite var(--slider-speed);
+    width: calc(2 * var(--slider-inner-width));
+    transition: animation-play-state ease 0.3s;
+    &:hover {
+        animation-play-state: paused;
+    }
+}
+
+/* Config container*/
+.flex-container-slide-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  background: #0F0F0F;
+}
+
+.slider-container-2 {
+	height: 190px;
+	overflow:hidden;
+	position: relative;
+	width: 100%;
+}
+.slider2 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+  
+.slider__slide2 {
+    height: 190px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        cursor: pointer;
+        scale: 1.04;
+    }
+}
