@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,10 +21,10 @@
                     </a>
                     <div class="hidden md:block">
                         <div class="flex items-center font-alexandria font-light text-white gap-[28px] text-[14px] lg:text-[16px] 2xl:gap-[38px]">
-                            <a href="#" class="font-normal">Home</a>
-                            <a href="#" class="font-normal text-[#999999] hover:text-[#9DFF3A]">Features</a>
-                            <a href="#" class="font-normal text-[#999999] hover:text-[#9DFF3A]">Testimonial</a>
-                            <a href="#" class="font-normal text-[#999999] hover:text-[#9DFF3A]">FAQ</a>
+                            <a href="#" class="font-normal hover:text-[#d1d1d1]">Home</a>
+                            <a href="#features" class="font-normal text-[#999999] hover:text-[#9DFF3A]">Features</a>
+                            <a href="#testimonial" class="font-normal text-[#999999] hover:text-[#9DFF3A]">Testimonial</a>
+                            <a href="#faq" class="font-normal text-[#999999] hover:text-[#9DFF3A]">FAQ</a>
                         </div>
                     </div>
                     <div>
@@ -33,8 +33,8 @@
                         </div>
                         <div class="hidden md:block">
                             <div class="font-alexandria flex gap-[10px]">
-                                <button class="bg-[#000000] text-white font-normal hover:text-[#d1d1d1] rounded-full cursor-pointer py-[5px] px-[20px] lg:py-[8px]">Log in</button>
-                                <button class="bg-[#9DFF3A] hover:bg-[#9cff3ae1] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal py-[5px] px-[20px] rounded-full lg:py-[8px] 2xl:px-[24px]">Try For Free</button>
+                                <button class="bg-[#000000] text-white font-normal hover:text-[#d1d1d1] rounded-full cursor-pointer py-[5px] px-[20px] lg:py-[8px]" aria-label="btn-login">Log in</button>
+                                <button class="bg-[#9DFF3A] hover:bg-[#9cff3ae1] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal py-[5px] px-[20px] rounded-full lg:py-[8px] 2xl:px-[24px]" aria-label="btn-try-for-free">Try For Free</button>
                             </div>
                         </div>
 
@@ -67,10 +67,10 @@
                     </div>
                     <div class="flex flex-col gap-[20px] my-[32px] md:flex-row md:mt-[32px] md:mb-[0px] 2xl:mt-[40px]">
                         <div class="flex justify-center">
-                            <button class="bg-[#9DFF3A] hover:bg-[#9cff3ae1] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal py-[12px] px-[24px] rounded-full lg:py-[8px] 2xl:px-[24px]">Get Started</button>
+                            <button class="bg-[#9DFF3A] hover:bg-[#9cff3ae1] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal py-[12px] px-[24px] rounded-full lg:py-[8px] 2xl:px-[24px]" aria-label="btn-get-start">Get Started</button>
                         </div>
                         <div class="flex justify-center">
-                            <button class="bg-linear-to-r from-[#B3B3B3] to-[#4D4D4D] p-[2px] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal  rounded-full">
+                            <button class="bg-linear-to-r from-[#B3B3B3] to-[#4D4D4D] p-[2px] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal  rounded-full" aria-label="btn-watch-video">
                                 <div class="bg-black text-[#E5E5E5] py-[12px] px-[24px] lg:py-[8px] 2xl:px-[24px] rounded-full flex items-center gap-[4px]">
                                     <span class="icon-[material-symbols--play-arrow-rounded] w-[28px] h-[28px]"></span>
                                     <p>Watch video</p>
@@ -105,7 +105,7 @@
     </section>
 
     <!-- Features -->
-    <section class="flex justify-center bg-[#000000] group">
+    <section class="flex justify-center bg-[#000000] group" id="features">
         <div class="container py-[50px] lg:py-[80px] px-[20px] lg:px-[60px]">
 
             <div class="flex flex-col gap-[16px] mb-[40px] xl:mb-[60px]">
@@ -261,7 +261,7 @@
     </section>
 
     <!-- Testimonial -->
-     <section class="pb-[50px] lg:pb-[64px] bg-[#0F0F0F] group">
+     <section class="pb-[50px] lg:pb-[64px] bg-[#0F0F0F] group" id="testimonial">
         <div class="flex justify-center">
             <div class="container px-[20px] pt-[50px] pb-[30px] lg:pt-[80px] lg:pb-[50px] lg:px-[60px]">
                 <div class="flex flex-col gap-[16px]">
@@ -774,7 +774,7 @@
     </section>
     
     <!-- Faq -->
-    <section class="flex justify-center bg-[#000000] group">
+    <section class="flex justify-center bg-[#000000] group" id="faq">
         <div class="container py-[50px] lg:py-[80px] px-[20px] lg:px-[60px]">
 
             <div class="flex flex-col gap-[16px] mb-[40px] xl:mb-[50px]">
@@ -934,7 +934,7 @@
                     </div>
                     <div>
                         <div class="flex justify-center mt-[10px]">
-                            <button class="bg-[#9DFF3A] hover:bg-[#9cff3ae1] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal py-[12px] px-[24px] lg:py-[14px] 2xl:px-[24px]">Get Started</button>
+                            <button class="bg-[#9DFF3A] hover:bg-[#9cff3ae1] hover:translate-y-[-3px] duration-150 ease-in-out cursor-pointer font-normal py-[12px] px-[24px] lg:py-[14px] 2xl:px-[24px]" aria-label="btn-get-start">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -981,7 +981,7 @@
                         <h3 class="text-[#E5E5E5] font-light lg:font-semibold text-[20px] lg:w-[220px]">Join our mailing list for updates</h3>
                         <div class="flex justify-between">
                             <input type="text" placeholder="Your email address" class="text-[#999999] font-normal text-[16px] w-[100%] mr-[18px]">
-                            <button class="bg-[#9DFF3A] flex items-center rounded-full px-[4px] py-[4px] hover:bg-[#9cff3ae1] hover:translate-x-[3px] duration-150 ease-in-out cursor-pointer">
+                            <button class="bg-[#9DFF3A] flex items-center rounded-full px-[4px] py-[4px] hover:bg-[#9cff3ae1] hover:translate-x-[3px] duration-150 ease-in-out cursor-pointer" aria-label="btn-send">
                                 <span class="icon-[material-symbols--arrow-right-alt-rounded] bg-[#000] w-[28px] h-[28px] md:w-[20px] md:h-[20px] lg:w-[28px] lg:h-[28px]"></span>
                             </button>
                         </div>
