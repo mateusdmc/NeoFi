@@ -3,7 +3,7 @@ Neste estudo de caso pude codificar o protótipo da landing page NeoFi e aplicar
 
 ## Landing Page - Preview
 
-![capa (capa)](./src/assets/img/capa-2.png)
+![capa (capa)](./src/assets/img/capa.png)
 <!-- ![capa (capa)](./src/assets/img/capa.png) -->
 
 - Projeto - **[Figma](https://www.figma.com/community/file/1472437465816738365)**
