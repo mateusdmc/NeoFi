@@ -5,7 +5,8 @@ Neste estudo de caso pude codificar o protótipo da landing page NeoFi e aplicar
 ![capa (capa)](https://github.com/mateusdmc/NeoFi/blob/developer/src/assets/img/capa.png?raw=true)
 
 
-- Online Preview - **[NeoFi](https://mateusdmc.github.io/NeoFi/)**
+- Projeto - **[Figma](https://www.figma.com/community/file/1472437465816738365)**
+- Resultado - **[NeoFi](https://mateusdmc.github.io/NeoFi/)**
 
 ## Features
 O desenvolvimento deste projeto foi realizado com as seguintes ferramentas e tecnologias:
