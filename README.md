@@ -2,8 +2,7 @@
 Neste estudo de caso pude codificar o protótipo da landing page NeoFi e aplicar algumas abordagens práticas como **mobile first**, **perfect pixel** e **design responsivo**.
 
 ## Landing Page - Preview
-![capa (capa)](https://github.com/mateusdmc/NeoFi/blob/developer/src/assets/img/capa.png?raw=true)
-
+![capa (capa)](./src/assets/img/capa.png)
 
 - Projeto - **[Figma](https://www.figma.com/community/file/1472437465816738365)**
 - Resultado - **[NeoFi](https://mateusdmc.github.io/NeoFi/)**
